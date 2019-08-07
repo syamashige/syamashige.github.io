@@ -1,5 +1,166 @@
+
+
+
 body {
-    background-color: #404040;
+    /* background-color: #404040; */
+    background-image: url('/assets/Brick-wall.jpg');
+    font-family: 'pompiere', cursive;
     color: white;
+    /* cursor: url('assets/pizzaMan-cursor.png'), auto; */
+    /* font-size: 25px; */
 }
 
+body:hover {
+    cursor: url("/assets/pizzaMan-cursor.png"), auto;
+}  
+
+#header > img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+#name {
+    /* font-family: "abril fatface", cursive; */
+    /* display: inline; */
+    /* background-color: white; */
+    /* background: rgba(255, 255, 255, 0.65);
+    border: 3px solid black; */
+    /* text-align: center; */
+    font-family: 'fredericka the great', cursive;
+    letter-spacing: 8px;
+    color: #f2f2f2;
+    /* background: rgb(64, 64, 64, 0.75); */
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    transform: scale(1.5); 
+    /* transform: rotate(-2deg); */
+
+}
+
+#tagLine {
+    position: absolute;
+    top: 62%;
+    left: 29%;
+    transform: scale(0.9);
+    color: black;
+    /* font-family: 'poiret one', cursive; */
+}
+
+div > #logo {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 20%;
+    height: 35%;
+
+}
+
+div > #bubble {
+    /* opacity: 0.8; */
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 25%;
+    height: 20%;
+    z-index: -1;
+  
+}
+
+h3 {
+    font-family: 'fredericka the great', cursive;
+    font-size: 40px;
+}
+
+nav {
+    font-family: 'fredericka the great', cursive;
+    font-size: 25px;
+    background-color: #404040;
+    text-align: right;
+    /* position: absolute;
+    top: 85%; */
+
+}
+
+.guide > a {
+    color: white;
+    /* border-right: 1px solid white;
+    padding-left: 80px;
+    padding-right: 80px; */
+    text-decoration: none;
+}
+
+.guide {
+    /* font-family: 'fredericka the great', cursive; */
+    display: inline;
+    text-align: center;
+    padding-right: 20px;
+    margin-left: 50px;
+
+}
+
+a:hover{
+    color: #404040;
+    background-color: white;
+}
+
+p {
+    font-size: 25px;
+}
+
+.pizzaName {
+    font-size: 30px;
+    /* border-left: 1px solid white;
+    border-right: 1px solid white; */
+    
+}
+
+#today {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+#menu {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.price {
+    font-weight: bold;
+}
+
+#visit {
+    font-size: 25px;
+}
+
+#map > a {
+    color: white;
+    text-decoration: none;
+}
+
+.hours {
+    display: inline;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+#credit {
+    font-size: 18px;
+}
+
+#copyright {
+    font-size: 18px;
+}
+
+
+/* section {
+    background-image: 
+} */
+
+/* #menu:hover {
+    cursor: url("/assets/pizzaMan-cursor.png"), auto;
+}   */
